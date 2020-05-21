@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>844</width>
+    <height>518</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>211</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cargar Tabla</string>
+    </property>
+   </widget>
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>811</width>
+      <height>421</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>844</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuAgregar">
+    <property name="title">
+     <string>Agregar</string>
+    </property>
+    <addaction name="actionContacto_Nuevo"/>
+    <addaction name="actionTelefono"/>
+    <addaction name="actionCorreo"/>
+   </widget>
+   <widget class="QMenu" name="menuModificar">
+    <property name="title">
+     <string>Modificar</string>
+    </property>
+    <addaction name="actionContacto"/>
+    <addaction name="actionTelefono_2"/>
+    <addaction name="actionCorreo_2"/>
+   </widget>
+   <widget class="QMenu" name="menuBorrar">
+    <property name="title">
+     <string>Borrar</string>
+    </property>
+    <addaction name="actionContacto_2"/>
+    <addaction name="actionTelefono_3"/>
+    <addaction name="actionCorreo_3"/>
+   </widget>
+   <widget class="QMenu" name="menuConsultas">
+    <property name="title">
+     <string>Consultas</string>
+    </property>
+    <addaction name="actionTelefono_4"/>
+    <addaction name="actionCorreo_4"/>
+    <addaction name="actionCumples"/>
+   </widget>
+   <addaction name="menuAgregar"/>
+   <addaction name="menuModificar"/>
+   <addaction name="menuBorrar"/>
+   <addaction name="menuConsultas"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionContacto_Nuevo">
+   <property name="text">
+    <string>Contacto</string>
+   </property>
+  </action>
+  <action name="actionTelefono">
+   <property name="text">
+    <string>Telefono</string>
+   </property>
+  </action>
+  <action name="actionCorreo">
+   <property name="text">
+    <string>Correo</string>
+   </property>
+  </action>
+  <action name="actionContacto">
+   <property name="text">
+    <string>Contacto</string>
+   </property>
+  </action>
+  <action name="actionTelefono_2">
+   <property name="text">
+    <string>Telefono</string>
+   </property>
+  </action>
+  <action name="actionCorreo_2">
+   <property name="text">
+    <string>Correo</string>
+   </property>
+  </action>
+  <action name="actionContacto_2">
+   <property name="text">
+    <string>Contacto</string>
+   </property>
+  </action>
+  <action name="actionTelefono_3">
+   <property name="text">
+    <string>Telefono</string>
+   </property>
+  </action>
+  <action name="actionCorreo_3">
+   <property name="text">
+    <string>Correo</string>
+   </property>
+  </action>
+  <action name="actionTelefono_4">
+   <property name="text">
+    <string>Telefono</string>
+   </property>
+  </action>
+  <action name="actionCorreo_4">
+   <property name="text">
+    <string>Correo</string>
+   </property>
+  </action>
+  <action name="actionCumples">
+   <property name="text">
+    <string>Cumples</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
